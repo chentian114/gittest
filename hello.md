@@ -29,6 +29,7 @@ hello git test!
 # Git常用命令
 ## 1.初始化用户
 git config --global user.name 'chentian114@sina.com'
+git config --global user.email 'chentian114@sina.com'
 git config --list
 
 ## 2.添加一个git仓库
