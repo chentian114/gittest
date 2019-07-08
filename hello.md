@@ -55,6 +55,16 @@ rm xxx  删除本地文件
 git rm xxx 删除仓库中文件
 git commit -m '提交描述'
 
+## 9.将文件从本地提交到github仓库
+### 克隆github仓库到本地
+git clone xxx.git
+### 修改或添加文件，从工作区提交到暂存区
+git add xxx
+### 将暂存区数据提交到仓库
+git commit -m '提交描述'
+### 将分库数据提交到github仓库
+git push
+
 
 
 
